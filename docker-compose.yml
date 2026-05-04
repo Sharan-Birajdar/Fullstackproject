@@ -12,7 +12,7 @@ services:
     networks:
       - app-network
 
-  backend:
+ backend:
     build: ./backend
     container_name: backend
     restart: unless-stopped
